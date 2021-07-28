@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background: center;
+    background-image: url('./sunny_color.png');
+    width: 320px;
+    height: 640px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.1),
+        10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.search__box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search__box .search__bar {
+    display: block;
+    width: 80%;
+    padding: 15px;
+
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+
+    background-color: #F5F5F5;
+    border-radius: 16px;
+
+    box-shadow: 0px 5px 5px rgba( 0, 0, 0, 0.4);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color:#012464;
+    text-align: center;
+}
+
+.search__box .search__bar::placeholder{
+    text-align: center;
+}
+
+.location__box .location {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 900;
+    color:#012464;
+    text-align: center;
+    text-shadow: 3px 3px rgba (50,50,70,0.5);
+    filter: drop-shadow(-2px -2px 2px rgba(255, 255, 255, 0.3)) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+.result__box{
+    width: 80%;
+    
+}
+
+.location__box .date {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    color:#012464;
+    font-weight: 900;
+    text-align: center;
+    filter: drop-shadow(-2px -2px 2px rgba(255, 255, 255, 0.3)) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+.weather__box{
+    text-align: center;
+}
+
+.weather__box .temp{
+    position: relative;
+    display: inline-block;
+
+    font-family: 'Montserrat';
+    font-size: 64px;
+    color:#012464;
+    font-weight: 900;
+    filter: drop-shadow(-2px -2px 2px rgba(255, 255, 255, 0.3)) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+    text-align: center;
+}
+
+.result__box .weather{
+    font-size: 36px;
+    color:#012464;
+    font-weight: 900;
+    filter: drop-shadow(-2px -2px 2px rgba(255, 255, 255, 0.3)) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+    font-family: 'Montserrat';
+}
